@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+  justify-content: start;
+  /* align-items: flex-start; */
+}
+.Heading {
+  color: #fff;
+  font-size: 40;
+}
+
+.outerDiv {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.input {
+  border-radius: 10px;
+  border-width: 2px;
+  /* border-bottom-width: 5px; */
+  background-color: #242424;
+  border-style: dotted;
+  padding: 0;
+  margin: 0;
+  width: 79.5%;
+  padding-left: 10px;
+  height: 50px;
+  margin-left: 25px;
+  align-self: center;
+}
+
+.dropDown {
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #242424;
+  border-style: dotted;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  align-self: center;
+}
+
+/* ParkingandTollComponent.css */
+
+/* Styles for the container div */
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 20rem;
+  text-align: start;
+  font-size: small;
+}
+
+/* Styles for the buttons */
+button {
+  padding: 10px 30px;
+  margin: 10px 5px;
+  background-color: blue;
+  color: white;
+  font-size: 16px; /* Specify font size in pixels */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add border shadow */
+}
+
+button h1:first-child {
+  font-size: 10;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the form */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styles for the calculate button */
+.calculate-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculate-btn:hover {
+  background-color: #218838;
+}
+
+/* Styles for the total amount display */
+.total-amount {
+  margin-top: 20px;
+  display: flex;
+}
+
+/* .calender {
+  background-color: #000;
+} */
+
+.thirtyPercentage {
+  width: 35%;
+  align-self: start;
+  justify-content: start;
+  /* background-color: red; */
+}
+
+/* .seventyPercentage {
+  width: 70%;
+  align-self: start;
+} */
+
+@media only screen and (max-width: 600px) {
+
+  .container{
+    font-size: xx-small;
+    margin: 5px;
+  }
+
+}
+
+
+
